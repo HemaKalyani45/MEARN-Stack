@@ -1,0 +1,20 @@
+<a href=""><i class="fa fa-rocket" aria-hidden="true"></i> <br> Top Content</a>
+        <a href=""><i class="fa fa-users" aria-hidden="true"></i><br>People</a>
+        <a href=""><i class="fa fa-caret-square-o-right" aria-hidden="true"></i><br>Learning</a>
+        <a href=""><i class="fa fa-puzzle-piece" aria-hidden="true"></i><br>Jobs</a>
+        <a href=""><i class="fa fa-puzzle-piece" aria-hidden="true"></i><br>Games</a>
+        <a href=""><i class="fa fa-laptop"></i><br>Get app</a>
+rgb(86, 82, 82);
+
+        <figure><i class="fa fa-rocket" aria-hidden="true"></i></figure>
+        <figcaption>Top Content</figcaption>
+        <figure><i class="fa fa-user-group" aria-hidden="true"></i></figure>
+        <figcaption>People</figcaption>
+        <figure><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></figure>
+        <figcaption>Learning</figcaption>
+        <figure><i class="fa fa-briefcase" aria-hidden="true"></i></figure>
+        <figcaption>Jobs</figcaption>
+        <figure><i class="fa fa-puzzle-piece" aria-hidden="true"></i></figure>
+        <figcaption>Games</figcaption>
+        <figure><i class="fa fa-laptop"></i></figure>
+        <figcaption></figcaption>

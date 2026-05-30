@@ -1,0 +1,103 @@
+
+
+.img-main{
+    width:550px;
+    height: 500px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.div-logo{
+   padding: 20px;
+   margin-top:-180px;
+   
+  
+   
+}
+.face-logo{
+    height: 60px;
+    width:60px;
+    margin:40px;
+
+}
+.myh1{
+    font-size: 50px;
+    margin-top: -250px;
+    padding-left:25px ;
+}
+
+
+
+
+
+
+
+
+.container{
+    margin-left: 650px;
+    margin-top: -450px;
+    border-left: 2px solid lightgrey;
+    padding-left: 25px;
+    height: 500px;
+    
+}  
+
+.con{
+    width:500px;
+}
+
+input{
+    width:350px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+}
+
+.btn-login{
+    width:370px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1877F2;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 120px;
+}
+
+.btn-create{
+    width:370px;
+    border:1px solid #0457CB;;
+    color: #0457CB;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.image{
+    width:70px;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+p{
+    margin-top: 35px;
+   font-size: 13px;
+   font-weight: 300;
+   color:grey;
+    padding-left:50px ;
+    font-family: "Montserrat",sans-serif;
+}
+hr{
+    margin-top: 10px;
+    width:1200px;
+}
+body{
+    overflow-x: hidden;
+    padding-left: 28px;
+}

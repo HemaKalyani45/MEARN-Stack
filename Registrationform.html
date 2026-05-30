@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form>
+<fieldset>
+<legend>Registration Form</legend>
+<table>
+<tr>
+<td><label for="name">Student Name: <font color="red">*</font></label></td>
+<td><input type="text" id="name" placeholder="Enter Name" required pattern="[a-zA-z]+">
+</tr>
+<tr>
+<td><label for="email">Email: <font color="red">*</font></label></td>
+<td><input type="email" id="email" placeholder="Enter email" required">
+</tr>
+<tr>
+<td><label for="phno">Phone No: </label></td>
+<td><input type="text" id="phno" placeholder="Enter Phone Number" pattern=></td>
+</tr>
+<tr>
+<td><label for="n1">DOB: </label></td>
+<td><input type="datetime-local" id="n1" ></td>
+</tr>
+<tr>
+<td><label for="n2">Aadhar Number: </label></td>
+<td><input type="number" id="n1" pattern="[0-9]{12}" placeholder="Aadhar Number"></td>
+</tr>
+<tr>
+<td><label for="n3">Gender: </label></td>
+<td><input type="radio" id="n3" name="Gen" >Male <br>
+<input type="radio" id="n3" name="Gen" >Female <br>
+<input type="radio" id="n3" name="Gen" >Perfer Not To Say <br>
+</td>
+</tr>
+
+<tr>
+<td><label for="n1">Course: </label></td>
+<td><select>
+<option>Select Course</option>
+<option>B.Tech-1st Year</option>
+<option>B.Tech-2nd Year</option>
+<option>B.Tech-3rd Year</option>
+<option>B.Tech-4th Year</option>
+</select></td>
+</tr>
+<tr>
+<td><label for="n4">Department: </label></td>
+<td><select>
+<option>Select Department</option>
+<option>CSE</option>
+<option>IT</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>CIVIL</option>
+<option>MECH</option>
+
+ </td>
+</tr>
+
+<tr>
+<td><label for="n4">Location:</label></td>
+<td><input id="n4" list="loc">
+<datalist id="loc">
+
+<option>Vizag</option>
+<option>Hyderabad</option>
+<option>West Godavari</option>
+<option>East Godavari </option>
+<option>Rajamundry</option>
+<option>vijayawada</option>
+</datalist>
+</td>
+</tr>
+<tr>
+<td><label for="n5">Address:</label></td>
+<td><textarea id="n5" rows="5" cols="20"></textarea></td>
+</tr>
+<tr>
+<td><label>Rate Your Communication:</label></td>
+<td><input type="range" min="1" max="10"></td>
+</tr>
+<tr>
+<td><label for="n6">Upload Document:</label></td>
+<td><input type="file" id="n6"></td>
+</tr>
+<tr>
+<td><label for="n7">GitHub:</label>
+<td><input type="url" id="n7" placeholder="Github Url"></td>
+</tr>
+<tr>
+<td><label for="n8" >Skills:</label></td>
+<td><input type="checkbox" id="n8">Java<br>
+<input type="checkbox" id="n8">Python<br>
+<input type="checkbox" id="n8">JavaScript<br>
+<input type="checkbox" id="n8">C<br>
+<input type="checkbox" id="n8">C++<br>
+<input type="checkbox" id="n8">Web Technologies<br>
+</td>
+</tr>
+<tr>
+<td>Foundation Website:</td>
+<td><iframe src="https://drreddysfoundation.org/" height="200"></iframe></td>
+</tr>
+<tr>
+<td>Foundation Location:</td>
+<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30440.6025647431!2d78.34415495395665!3d17.50391756723694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f38530c1d5%3A0xc12babe8305eacb3!2sDMart%20Miyapur!5e0!3m2!1sen!2sin!4v1779878405192!5m2!1sen!2sin" width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Register"></td>
+<td><input type="reset" value="Cancel"></td>
+</tr>
+
+
+
+
+
+
+</table>
+
+</fieldset>
+</form>
+</body>
+
+</html>
