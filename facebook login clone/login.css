@@ -1,10 +1,10 @@
 
 
 .img-main{
-    width:550px;
+    width:500px;
     height: 500px;
     margin-left: 110px;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 .div-logo{
    padding: 20px;
@@ -33,28 +33,38 @@
 
 
 .container{
-    margin-left: 650px;
-    margin-top: -450px;
+  
     border-left: 2px solid lightgrey;
-    padding-left: 25px;
-    height: 500px;
-    
+   
+   height: 650px;
+    margin-top: -600px;
+    margin-left: 600px;
+    padding-left: 55px;
 }  
 
 .con{
-    width:500px;
+    width:600px;
+   height: 650px;
+   padding-top: 150px;
+   
+   
+    
+   
+    
+    
+   
 }
 
 input{
-    width:350px;
+    width:400px;
     margin-top: 15px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     border:1px solid lightgrey;
 }
 
 .btn-login{
-    width:370px;
+    width:430px;
     margin-top: 20px;
     padding: 8px;
     border-radius: 20px;
@@ -65,11 +75,11 @@ input{
 
 a{
     text-decoration: none;
-    margin-left: 120px;
+    margin-left: 160px;
 }
 
 .btn-create{
-    width:370px;
+    width:430px;
     border:1px solid #0457CB;;
     color: #0457CB;
     background-color: #fff;
@@ -82,7 +92,7 @@ a{
 .image{
     width:70px;
     margin-top: 25px;
-    margin-left: 140px;
+    margin-left: 190px;
 }
 
 p{
@@ -94,10 +104,10 @@ p{
     font-family: "Montserrat",sans-serif;
 }
 hr{
-    margin-top: 10px;
-    width:1200px;
+    margin-top: -55px;
+    width:1250px;
 }
 body{
     overflow-x: hidden;
-    padding-left: 28px;
+    
 }

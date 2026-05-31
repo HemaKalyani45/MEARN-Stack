@@ -51,6 +51,7 @@ button{
    margin-top: -80px;
 }
 .head{
+    margin-top: 60px;
     font-size: 50px;
     font-weight: 100px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
@@ -113,7 +114,7 @@ button{
 
 .container2{
     margin-left: 620px;
-    margin-top: -550px;
+    margin-top: -530px;
 }
 
 .img-bg
