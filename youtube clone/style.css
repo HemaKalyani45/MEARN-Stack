@@ -32,7 +32,7 @@ body{
     margin-top: -35px;
 }
 .inp-search{
-    border: none;
+   
     width: 500px;
     height: 20px;
     padding-left:  10px;
@@ -40,12 +40,14 @@ body{
     margin-left: 10px;
     margin-top: 1px;
     /* border-right: 2px solid black ; */
+     border: 1px solid white;
 
 }
 
 input::placeholder{
     font-size: 17px;
 }
+
 
 .btn-search{
     height: 32px;
@@ -217,7 +219,7 @@ a{
     height:700px;
     display: none;
     overflow: auto;
-    display: none;
+    /* display: none; */
     /* border: 2px solid; */
     
 }
@@ -278,7 +280,7 @@ span{
 
 }
 
-.btn-nav:hover .btn-menu{
+/* .btn-nav:hover .btn-menu{
     display:block;
-}
+} */
 
