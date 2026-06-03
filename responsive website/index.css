@@ -1,0 +1,429 @@
+@media only screen and (min-width:720px){
+body{
+    overflow-x: hidden;
+}
+
+    .nav-img{
+    height:80px;
+    width:100px;
+    margin-left: 50px;
+}
+
+.navbar-nav{
+   position: relative;
+   left: 600px;
+   bottom: 75px;
+
+
+.nav-items{
+    display:inline;
+   position: relative;
+   left:30px;
+   top:10px;
+   padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+}
+
+.img-home{
+    height:500px;
+    width:1250px;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.container-about{
+    /* border: 2px solid black; */
+    height:650px;
+    .myh1{
+        position: relative;
+        left:50px;
+        top:20px;
+    }
+
+    .img-about{
+         height: 180px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top:25px;
+    left:120px;
+    }
+
+    .p-about{
+        width:600px;
+    font-size: 19px;
+    position: relative;
+    left: 450px;
+    bottom:140px;
+    }
+
+    .aw-h2{
+    position: relative;
+    left: 550px;
+    bottom: 80px;
+    font-size: 30px;
+}
+
+.s1{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    position: relative;
+    left: 130px;
+    font-size:15px;
+    padding: 20px;
+    
+}
+
+button{
+    border-radius:20px ;
+    position: relative;
+    left: 38px;
+}
+.myh3{
+    position: relative;
+    left:5px;
+    font-size: 14px;
+}
+.p{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.s2{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    
+    font-size:15px;
+    padding: 20px;
+    position: relative;
+    left: 460px;
+    bottom: 245px;
+}
+.s3{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    font-size:15px;
+    padding: 20px;
+    position: relative;
+    left: 800px;
+    bottom: 490px;
+}
+
+.img-award{
+    height: 120px;
+    width:120px;
+    position: relative;
+    left:20px;
+    top:-6px;
+}
+
+.about-award{
+    position: relative;
+    bottom: 80px;
+    left:25px;
+    /* border: 2px solid black; */
+    height: 300px;
+}
+}
+
+.container-project{
+    /* position: relative;
+    bottom: 270px; */
+   
+
+
+
+.proj{
+position: relative;
+top:20px;
+left:50px;
+}
+
+
+
+.img-pro1{
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+.p-pro1{
+    width:520px;
+    position: relative;
+    left:500px;
+    bottom: 300px;
+    font-size: 25px;
+}
+
+span{
+    font-size: 18px;
+    position: relative;
+    right: 140px;
+    bottom: 20px;
+}
+
+.p-pro2{
+    width:520px;
+    position: relative;
+    left:80px;
+    bottom: 450px;
+    font-size: 25px;
+}
+
+.img-pro2{
+    width: 450px;
+    height:250px;
+     position: relative;
+    left: 650px;
+    bottom: 210px;
+
+
+}
+
+.myspan{
+    font-size: 18px;
+    position: relative;
+    left: 380px;
+    bottom: 180px;
+}
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width:720px){
+body{
+    overflow-x: hidden;
+}
+    .nav-img{
+    height:80px;
+    width:100px;
+    margin-left: 30px;
+}
+
+.navbar-nav{
+   
+
+
+.nav-items{
+    display:block;
+    margin: 10px;
+    
+    
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+}
+.img-home{
+    height:400px;
+    width:400px;
+    margin-top: 20px;
+
+}
+
+.container-about{
+   
+    .myh1{
+        position: relative;
+        left:50px;
+        top:20px;
+    }
+
+    .img-about{
+         height: 180px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top:25px;
+    left:120px;
+    }
+
+    .p-about{
+        width:350px;
+    font-size: 19px;
+    position: relative;
+    left: 30px;
+    top:40px;
+    }
+
+    .aw-h2{
+    position: relative;
+    left: 50px;
+    top: 80px;
+    font-size: 30px;
+}
+
+.s1{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    position: relative;
+    left: 80px;
+    top:170px;
+    font-size:15px;
+    padding: 20px;
+    
+}
+
+button{
+    border-radius:20px ;
+    position: relative;
+    left: 38px;
+}
+.myh3{
+    position: relative;
+    left:5px;
+    font-size: 14px;
+}
+.p{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.s2{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    
+    font-size:15px;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+    top: 245px;
+}
+.s3{
+    border: 2px solid gray;
+    border-radius: 50px;
+    width:150px;
+    height: 200px;
+    font-size:15px;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+    top: 310px;
+}
+
+.img-award{
+    height: 120px;
+    width:120px;
+    position: relative;
+    left:20px;
+    top:-6px;
+}
+
+.about-award{
+    position: relative;
+    bottom: 80px;
+    left:25px;
+}
+}
+
+.container-project{
+    /* position: relative;
+    bottom: 270px; */
+   
+
+
+
+.proj{
+position: relative;
+top:280px;
+left:50px;
+}
+
+
+
+.img-pro1{
+    width:400px;
+    position: relative;
+    
+   top:230px;
+}
+
+.p-pro1{
+    width:380px;
+    position: relative;
+    left:25px;
+   top:250px;
+    font-size: 25px;
+}
+
+span{
+    font-size: 23px;
+    position: relative;
+    left:130px;
+    top: 250px;
+}
+
+.p-pro2{
+    width:380px;
+    position: relative;
+    left:25px;
+    top: 250px;
+    font-size: 25px;
+}
+
+.img-pro2{
+    width: 400px;
+    height:250px;
+     position: relative;
+    
+    top: 280px;
+
+
+}
+
+.myspan{
+    font-size: 23px;
+    position: relative;
+    
+    top:290px;
+}
+
+
+
+ .container-gallery{
+   
+    h1-gallery{
+        
+    }
+    .img-gallery{
+    width:20px;
+    height:10px;
+    border-radius: 20px;
+    
+   
+}
+
+.img-gall{
+    position: relative;
+    left:150px;
+}
+
+} 
+}
+}
