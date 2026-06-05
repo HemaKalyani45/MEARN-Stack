@@ -1,7 +1,7 @@
-
+/* 
 body{
     overflow-x: hidden;
-}
+} */
 
 .navbar{
     position: sticky;
@@ -25,7 +25,7 @@ body{
 .nav-items{
     display:inline;
     position: relative;
-    left:40px;
+    left:550px;
     bottom: 80px;
 }
 
@@ -48,7 +48,9 @@ body{
 
 .img-home{
     height: 500px;
-    width:700px;
+    width:1000px;
+    position: relative;
+    top:50px;
 }
 
 .container-about{
