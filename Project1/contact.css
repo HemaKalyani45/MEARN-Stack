@@ -1,0 +1,294 @@
+ body{
+    overflow-x: hidden;
+    
+}
+.navbar{
+    position:absolute;
+     top:20px;
+    .nav-items{
+    display:inline;
+ 
+}
+.nav-links{
+    text-decoration: none;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    margin:10px;
+    position: relative;
+    left:15px;
+    top:18px;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color:black;
+}
+.nav-logo{
+    
+    position: relative;
+    left:450px;
+    bottom: 90px;
+
+   
+}
+.btn-nav{
+    position: absolute;
+    left:750px;
+    top:18px;
+    width:300px;
+  
+    a{
+       display: inline;
+        margin:20px;
+        
+       
+    }
+    i{
+        font-size: 25px;
+        color:rgb(96, 94, 94);
+    }
+
+
+}
+    button{
+        font-size: 15px;
+        
+        border: none;
+        font-family: "Cinzel", serif;
+        height:45px;
+        width:140px;
+        position:absolute;
+        top:8px;
+        left:1000px;
+
+    }
+}
+
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking-section{
+    background:#f8f5f1;
+    color:#333;
+    
+    position: absolute;
+    top:100px;
+    left:0px;
+    width:1300px;
+}
+
+.booking-section{
+    min-height:100vh;
+    padding:80px 20px;
+    
+}
+
+.container{
+    max-width:1000px;
+    margin-left:70px;
+    background:#fff;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+.booking-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.booking-header h1{
+    font-size:3rem;
+    color:#1d1d1d;
+    margin-bottom:15px;
+}
+
+.booking-header p{
+    color:#666;
+    font-size:1.05rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.booking-form{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.full-width{
+    grid-column:1/-1;
+}
+
+label{
+    margin-bottom:8px;
+    font-weight:600;
+    color:#444;
+}
+
+input,
+select,
+textarea{
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+    transition:0.3s;
+    font-size:15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color:#c59d5f;
+}
+
+.btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:10px;
+    background:#c59d5f;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#b18a50;
+}
+
+@media(max-width:768px){
+
+    .container{
+        padding:30px;
+    }
+
+    .booking-header h1{
+        font-size:2.2rem;
+    }
+
+    .booking-form{
+        grid-template-columns:1fr;
+    }
+}
+
+ footer{
+    background-color:  hsla(42,31%,94%,1);
+    position:absolute;
+    top:1160px;
+    width:1200px;
+    height:250px;
+
+.footer-items{
+    display:inline;
+}
+ .footer-links{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    position:relative;
+   top:100px;
+   left:25px;
+ }
+
+ .footer-links:hover{
+    text-decoration: underline;
+ }
+
+ .foot-main{
+    position: relative;
+    top:60px;
+    left:453px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+
+ }
+
+ hr{
+    width:170px;
+    position: relative;
+    left:450px;
+  top:65px;
+ }
+
+ .foot-sub{
+
+    position: relative;
+    top:70px;
+    left:453px;
+    color:currentColor;
+    font-size: 13px;
+    font-family:"Cinzel", serif;
+
+
+ }
+
+ .foot-btn{
+    position: relative;
+    left:720px;
+  top:15px;
+    border:none;
+    height:60px;
+    width:180px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+ }
+
+ .btn-foot{
+    position: relative;
+    left:1000px;
+    top:-25px;
+    i{
+    font-size: 20px;
+    color:black;
+    }
+
+
+
+    a{
+        margin:13px;
+        position: relative;
+        right:30px;
+        
+       
+    }
+   
+ }
+
+ 
+ 
+
+ .copyright-footer{
+    width:445px;
+    position: relative;
+top:60px;
+left:350px;
+font-size: 13px;
+font-family: "Cinzel", serif;
+color:grey;
+span{
+
+
+margin-left: 120px;
+}   
+ }
+
+}

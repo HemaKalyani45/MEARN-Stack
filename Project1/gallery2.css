@@ -1,0 +1,242 @@
+.navbar{
+    position:absolute;
+
+    .nav-items{
+    display:inline;
+ 
+}
+.nav-links{
+    text-decoration: none;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    margin:10px;
+    position: relative;
+    right:25px;
+    top:18px;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color:black;
+}
+.nav-logo{
+    
+    position: relative;
+    left:450px;
+    bottom: 100px;
+
+   
+}
+.btn-nav{
+    position: absolute;
+    left:750px;
+    top:35px;
+    width:300px;
+  
+    a{
+       display: inline;
+        margin:20px;
+        
+       
+    }
+    i{
+        font-size: 25px;
+        color:rgb(96, 94, 94);
+    }
+
+
+}
+    button{
+        font-size: 15px;
+        
+        border: none;
+        font-family: "Cinzel", serif;
+        height:45px;
+        width:140px;
+        position:absolute;
+        top:25px;
+        left:1000px;
+
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+.gallery-container{
+    position: absolute;
+
+        .img1{
+            position: absolute;
+            left: 2px;
+            top: 120px;
+            height: 450px;
+            width: 570px;
+            border-radius: 10px;;
+        }
+        .img2{                                                
+            position: absolute;
+            top: 120px;
+            left: 580px;
+            height: 450px;
+            width: 570px;
+            border-radius:10px ;
+        }
+       .img3{
+            position: absolute;
+            height: 450px;
+            width: 570px;
+            top: 1040px;
+            left: 3px;
+            border-radius: 10px;;
+        }
+          .img4{
+            position: absolute;
+            height: 450px;
+            width: 570px;
+            top: 1040px;
+            left: 580px;
+            border-radius: 10px;
+        }
+        .img5{
+            position:absolute;
+            height: 450px;
+            width: 1140px;
+            top: 580px;
+            left: 3px;
+            border-radius: 10px;
+        }
+        .img6{
+            position: absolute;
+            height: 470px;
+            width: 570px;
+            top: 1500px;
+            left: 3px;
+            border-radius: 10px;
+        }
+        .img7{
+            position: absolute;
+            height: 470px;
+            width: 570px;
+            top: 1500px;
+            left: 580px;
+            border-radius: 10px;
+        }
+        .img8{
+            position: absolute;
+            height: 500px;
+            width: 1150px;
+            top:1980px;
+            left: 3px;
+            border-radius: 10px;
+        }
+       
+    }
+
+    footer{
+    background-color:  hsla(42,31%,94%,1);
+    position:absolute;
+    top:2500px;
+    width:1200px;
+    height:250px;
+
+.footer-items{
+    display:inline;
+}
+ .footer-links{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    position:relative;
+   top:80px;
+ }
+
+ .footer-links:hover{
+    text-decoration: underline;
+ }
+
+ .foot-main{
+    position: relative;
+    top:30px;
+    left:453px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+
+ }
+
+ hr{
+    width:170px;
+    position: relative;
+    left:-65px;
+  top:20px;
+ }
+
+ .foot-sub{
+
+    position: relative;
+    top:10px;
+    left:453px;
+    color:currentColor;
+    font-size: 13px;
+    font-family:"Cinzel", serif;
+
+
+ }
+
+ .foot-btn{
+    position: relative;
+    left:700px;
+  top:-55px;
+    border:none;
+    height:60px;
+    width:200px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+ }
+
+ .btn-foot{
+    position: relative;
+    left:1000px;
+    top:-90px;
+    i{
+    font-size: 20px;
+    color:black;
+    }
+
+
+
+    a{
+        margin:13px;
+        position: relative;
+        right:30px;
+        
+       
+    }
+   
+ }
+
+ 
+ 
+
+ .copyright-footer{
+    width:445px;
+    position: relative;
+top:-25px;
+left:350px;
+font-size: 13px;
+font-family: "Cinzel", serif;
+color:grey;
+span{
+
+
+margin-left: 120px;
+}
+ }
+
+}

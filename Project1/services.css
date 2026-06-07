@@ -1,0 +1,422 @@
+
+body{
+    overflow-x: hidden;
+    
+}
+.navbar{
+    position:absolute;
+
+    .nav-items{
+    display:inline;
+ 
+}
+.nav-links{
+    text-decoration: none;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    margin:10px;
+    position: relative;
+    right:25px;
+    top:18px;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color:black;
+}
+.nav-logo{
+    
+    position: relative;
+    left:450px;
+    bottom: 100px;
+
+   
+}
+.btn-nav{
+    position: absolute;
+    left:750px;
+    top:35px;
+    width:300px;
+  
+    a{
+       display: inline;
+        margin:20px;
+        
+       
+    }
+    i{
+        font-size: 25px;
+        color:rgb(96, 94, 94);
+    }
+
+
+}
+    button{
+        font-size: 15px;
+        
+        border: none;
+        font-family: "Cinzel", serif;
+        height:45px;
+        width:140px;
+        position:absolute;
+        top:25px;
+        left:1000px;
+
+    }
+}
+
+
+    .container{
+        position: absolute;
+        top:220px;
+      font-family:"Cinzel",serif;
+      img{
+         width:1000px;
+         height: 700px;
+         position: absolute;
+         top:-100px;
+         left:70px;
+         
+      }
+      .text1{
+        width:500px;
+         font-size: 50px;
+         position: absolute;
+         left:400px;
+         top:185px;
+         
+      }
+      .content{
+         width: 700px;
+         font-size: 18px;
+         position: absolute;
+         left:250px;
+         top:300px;
+         font-family: "Cinzel", serif;
+      }
+      .text2{
+        width:400px;
+         position: absolute;
+         left:420px;
+         top:400px;
+         font-size:28px;
+      }
+      .text3{
+        width:200px;
+         position: absolute;
+         left: 470px;
+         top:450px;
+         font-size:20px;
+    }
+   }
+    .display{
+      display: inline;
+       position: absolute;
+     top:700px;
+     width:auto ;
+
+   img{
+   height:280px;
+   width:280px;
+   margin: 50px;
+  }
+   
+   .text4{
+      width:150px;
+      position: absolute;
+      top:266px;
+      left:90px;
+      border:1px solid black;
+      background-color: aliceblue;
+      padding: 15px;
+      text-align:center;
+      border-style: none;
+   }
+   .text5{
+      width:150px;
+      position: absolute;
+      left:480px;
+      top:266px;
+      border:1px solid black;
+      background-color: aliceblue;
+      padding: 15px;
+      text-align:center;
+      border-style: none;
+   }
+   .text6{
+      width:150px;
+      position: absolute;
+      left: 870px;
+      top:266px;
+      border:1px solid black;
+      background-color: aliceblue;
+      padding: 15px;
+      text-align:center;
+      border-style: none;
+   }
+}
+   .list{
+      position:absolute;
+     
+      top:1100px;
+      font-size: 20px;
+      background-color: hsla(42,31%,94%,1);
+      width:1150px;
+      height:300px;
+      p{
+        position: absolute;
+        top:100px;
+        left:60px;
+        font-size: 25px;
+        font-family: "Cinzel", serif;
+        display: inline-block;
+  
+      }
+      li{
+        position: relative;
+        left:550px;
+        top:35px;
+        font-family: "Cinzel", serif;
+      }
+
+   }
+
+.process-container{
+    position: absolute;
+    top:1450px;
+     font-family: "Cinzel", serif;
+     height:250px;
+     
+   /* .img3{
+      width:600px;
+      position: relative;
+      left:100px;
+      top:-900px;
+   } */
+   .text7{
+      font-size: 30px;
+      position: absolute;
+      left:470px;
+      top:-25px;
+      width:400px;
+      font-family: "Cinzel", serif;;
+   }
+  .step1{
+   position: absolute;
+   left:150px;
+   top:70px;
+   width:100px;
+   
+  }
+  .stage1{
+   position: absolute;
+   left:110px;
+   top:100px;
+
+  }
+  .stage2{
+   position: absolute;
+   left:20px;
+   top:130px;
+   width:380px;
+  }
+  .step2{
+  position:absolute;
+   left:570px;
+   top:70px;
+   width:100px;
+  }
+  .stage3{
+    position: absolute;
+   left:530px;
+   top:100px;
+
+  }
+  .stage4{
+
+   position: absolute;
+   left:440px;
+   top:130px;
+   width:370px;
+  }
+   .step3{
+  position: absolute;
+   left:940px;
+   top:70px;
+   width:100px;
+  }
+  .stage5{
+    position: absolute;
+   left:910px;
+   top:100px;
+
+  }
+  .stage6{
+   position: absolute;
+   left:840px;
+   top:130px;
+   width:320px;
+  }
+
+}
+
+
+.container3{
+    position: absolute;
+    top:1740px;
+    img{
+        height: 500px;
+        opacity: 0.3;
+    }
+    .content2{
+        
+   width:700px;
+   position: absolute;
+   left:250px;
+   top:120px;
+   font-size: 25px;
+   font-family:"Cinzel", serif;;
+   .p2{
+    width:390px;
+    position: absolute;
+    left:100px;
+    top:-30px;
+    font-weight: 500;
+   }
+   .p3{
+    width:750px;
+    position: absolute;
+    top:60px;
+    left:-50px;
+    font-size: 21px;
+   }
+   hr{
+    position: absolute;
+    width:500px;
+    top:60px;
+    left:40px;
+   }
+   .button{
+    position: absolute;
+    top:250px;
+    left:200px;
+    font-size: 17px;
+    font-family:"Cinzel", serif;
+    border:none;
+    background-color: hsla(176,18%,67%,1);
+    color:white;
+    height:50px;
+    width:230px;
+   }
+   
+}
+}
+  
+
+footer{
+    background-color:  hsla(42,31%,94%,1);
+    position:absolute;
+    top:2255px;
+    width:1200px;
+    height:250px;
+
+.footer-items{
+    display:inline;
+}
+ .footer-links{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    position:relative;
+   top:80px;
+ }
+
+ .footer-links:hover{
+    text-decoration: underline;
+ }
+
+ .foot-main{
+    position: relative;
+    top:30px;
+    left:453px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+
+ }
+
+ hr{
+    width:170px;
+    position: relative;
+    left:-65px;
+  top:20px;
+ }
+
+ .foot-sub{
+
+    position: relative;
+    top:10px;
+    left:453px;
+    color:currentColor;
+    font-size: 13px;
+    font-family:"Cinzel", serif;
+
+
+ }
+
+ .foot-btn{
+    position: relative;
+    left:700px;
+  top:-55px;
+    border:none;
+    height:60px;
+    width:200px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+ }
+
+ .btn-foot{
+    position: relative;
+    left:1000px;
+    top:-90px;
+    i{
+    font-size: 20px;
+    color:black;
+    }
+
+
+
+    a{
+        margin:13px;
+        position: relative;
+        right:30px;
+        
+       
+    }
+   
+ }
+
+ 
+ 
+
+ .copyright-footer{
+    width:445px;
+    position: relative;
+top:-25px;
+left:350px;
+font-size: 13px;
+font-family: "Cinzel", serif;
+color:grey;
+span{
+
+
+margin-left: 120px;
+}
+ }
+
+}
