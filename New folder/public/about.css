@@ -1,0 +1,374 @@
+   body{
+    overflow-x: hidden;
+    margin:0;
+    padding: 0;
+    
+}
+.navbar{
+    position:absolute;
+
+    .nav-items{
+    display:inline;
+ 
+}
+.nav-links{
+    text-decoration: none;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    margin:10px;
+    position: relative;
+    right:25px;
+    top:18px;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color:black;
+}
+.nav-logo{
+    
+    position: relative;
+    left:450px;
+    bottom: 100px;
+
+   
+}
+.btn-nav{
+    position: absolute;
+    left:750px;
+    top:35px;
+    width:300px;
+  
+    a{
+       display: inline;
+        margin:20px;
+        
+       
+    }
+    i{
+        font-size: 25px;
+        color:rgb(96, 94, 94);
+    }
+
+
+}
+    button{
+        font-size: 15px;
+        
+        border: none;
+        font-family: "Cinzel", serif;
+        height:45px;
+        width:140px;
+        position:absolute;
+        top:25px;
+        left:1000px;
+
+    }
+    button:hover{
+         background-color:rgb(167, 154, 144);
+    color:black;
+    }
+}
+
+        .container{
+            position: absolute;
+            top:110px;
+            background-color: rgb(248, 245, 245);
+            width:1150px;
+            height:500px;
+            left:0px;
+            /* border:1px solid black; */
+            border-radius: 20px;
+             font-family:"Cinzel",serif;
+             video{
+                width:100%;
+                height:500px;
+                opacity: 0.4;
+                border-radius: 20px;
+                position: absolute;
+                left:0px;
+                object-fit:cover;
+               
+                
+            }
+/* 
+            width:1150px;
+                height:500px;
+                opacity: 0.3;
+                border-radius: 20px; */
+            h1{
+                position: absolute;
+                top:80px;
+                left:350px;
+                font-size: 33px;
+                
+            }
+            h5{
+                position: absolute;
+                top:125px;
+                left:410px;
+                font-size: 18px;
+            }
+            p{
+                position:absolute;
+                top:180px;
+                left:100px;
+                right:50px;
+                width:1000px;
+                font-size: 17px;
+                color: black;
+                
+                
+            }
+            
+         button{
+            position: absolute;
+            top:400px;
+            left:400px;
+            width:300px;
+            background-color: hsla(176,18%,67%,1);
+            color:white;
+            font-size:17px;
+            padding: 20px;
+            font-family: "Cinzel", serif;;
+            border-style: none;
+        }
+        button:hover{
+             background-color:rgb(167, 154, 144);
+    color:black;
+        }
+        .img2{
+            width:1000px;
+            height:450px;
+            position: relative;
+            top:150px;
+            left:-10px;
+
+            
+        }
+        marquee{
+            background-color: rgb(244, 237, 208) ;
+            font-size: 30px;
+            width: 1600px;
+            position: absolute;
+            top:530px;
+            left: -200px;
+
+        }
+       
+    }
+    .container2{
+        font-family:"Cinzel",serif;
+        position: absolute;
+        top:650px;
+       
+       .img3{
+        position:absolute;
+        left:40px;
+        top:50px;
+       }
+       .title{
+        width:400px;
+        position: absolute;
+        left:130px;
+        top:430px;
+        }
+        .imgname{
+            position: relative;
+            top:-10px;
+            left:-10px;
+        }
+       p{
+        width:600px;
+        position: absolute;
+        left:500px;
+        top:200px;
+        font-size: 14px;
+       }
+       .img4{
+        position: absolute;
+        left:700px;
+        top:500px;
+       }
+       .title2{
+        width:400px;
+        position: absolute;
+        left:770px;
+        top:890px;
+        
+       }
+       .imgname2{
+        position: relative;
+        left:60px;
+        top:-10px;
+
+       }
+       .content{
+        width:600px;
+        position: absolute;
+       left:50px;
+       top:650px; 
+       font-size: 14px;
+       }
+    }
+    
+      
+        .container3{
+            font-family:"Cinzel",serif;
+            position: absolute;
+            top:1670px;
+ 
+    background-color:  hsla(42,31%,94%,1);
+    height:625px ;
+    width:1150px;
+            .img5{
+            /* position: relative;
+            top:-300px;*/
+            width:550px; 
+        } 
+        .title3{
+            position: absolute;
+            left:620px;
+            top:20px;
+            font-size: 50px;
+            width:400px;
+        }
+        
+        
+        .content2{
+            width:493px;
+            position: absolute;
+            left:650px;
+            top:200px;
+            font-size: 13px;
+
+        }
+            button{
+                position: absolute;
+                height:55px;
+                width:220px;
+                font-family: "Cinzel", serif;;
+                background-color: hsla(176,18%,67%,1);
+                color:white;
+                left:750px;
+                top:520px;
+                padding: 18px;
+                font-size: 18px;
+                border-style: none;
+            }
+            button:hover{
+                 background-color:rgb(167, 154, 144);
+    color:black;
+            }
+        } 
+   
+  footer{
+    background-color:  hsla(42,31%,94%,1);
+    position:absolute;
+    top:2330px;
+    width:1200px;
+    height:250px;
+
+.footer-items{
+    display:inline;
+}
+ .footer-links{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    position:relative;
+   top:80px;
+ }
+
+ .footer-links:hover{
+    text-decoration: underline;
+ }
+
+ .foot-main{
+    position: relative;
+    top:30px;
+    left:453px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+
+ }
+
+ hr{
+    width:170px;
+    position: relative;
+    left:-65px;
+  top:20px;
+ }
+
+ .foot-sub{
+
+    position: relative;
+    top:10px;
+    left:453px;
+    color:currentColor;
+    font-size: 13px;
+    font-family:"Cinzel", serif;
+
+
+ }
+
+ .foot-btn{
+    position: relative;
+    left:700px;
+  top:-55px;
+    border:none;
+    height:60px;
+    width:200px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+ }
+
+ .btn-foot{
+    position: relative;
+    left:1000px;
+    top:-90px;
+    i{
+    font-size: 20px;
+    color:black;
+    }
+
+
+
+    a{
+        margin:13px;
+        position: relative;
+        right:30px;
+        
+       
+    }
+   
+ }
+
+
+ 
+ 
+
+ .copyright-footer{
+    width:445px;
+    position: relative;
+top:-25px;
+left:350px;
+font-size: 13px;
+font-family: "Cinzel", serif;
+color:grey;
+span{
+
+
+margin-left: 120px;
+}   
+ }
+
+}
+
+

@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    
 }
 
 .navbar{
@@ -75,8 +76,10 @@ body{
     height:600px;
     position:absolute;
     top:2px;
-}
+    
 
+    
+}
 .portfolio{
     height:220px;
     width:600px;
@@ -138,6 +141,10 @@ body{
             padding-top: 16px;
 
         }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
     }
 
     .port-img2{
@@ -162,6 +169,10 @@ body{
             padding-left: 25px;
             padding-top: 16px;
 
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
         }
 
     }
@@ -188,6 +199,10 @@ body{
             padding-left: 25px;
             padding-top: 16px;
 
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
         }
 
     }
@@ -229,6 +244,10 @@ body{
             padding-top: 16px;
 
         }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
     }
 
     .port-img5{
@@ -253,6 +272,10 @@ body{
             padding-left: 25px;
             padding-top: 16px;
 
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
         }
 
     }
@@ -321,6 +344,10 @@ body{
     left:100px;
     top:320px;
     }
+    button:hover{
+     background-color:rgb(167, 154, 144);
+    color:black;
+}
 }
 
 
@@ -431,3 +458,4 @@ margin-left: 120px;
  }
 
 }
+

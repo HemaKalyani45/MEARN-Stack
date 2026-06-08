@@ -1,0 +1,461 @@
+body{
+    overflow-x: hidden;
+    
+}
+
+.navbar{
+    position:absolute;
+
+    .nav-items{
+    display:inline;
+ 
+}
+.nav-links{
+    text-decoration: none;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    margin:10px;
+    position: relative;
+    right:25px;
+    top:18px;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color:black;
+}
+.nav-logo{
+    
+    position: relative;
+    left:450px;
+    bottom: 100px;
+
+   
+}
+.btn-nav{
+    position: absolute;
+    left:750px;
+    top:35px;
+    width:300px;
+  
+    a{
+       display: inline;
+        margin:20px;
+        
+       
+    }
+    i{
+        font-size: 25px;
+        color:rgb(96, 94, 94);
+    }
+
+
+}
+    button{
+        font-size: 15px;
+        
+        border: none;
+        font-family: "Cinzel", serif;
+        height:45px;
+        width:140px;
+        position:absolute;
+        top:25px;
+        left:1000px;
+
+    }
+}
+.portfolio-container{
+    background-color: rgb(245, 245, 245);
+    height:600px ;
+    width:1300px;
+    position:absolute;
+    top:110px;
+}
+.port-img{
+    width:550px;
+    height:600px;
+    position:absolute;
+    top:2px;
+    
+
+    
+}
+.portfolio{
+    height:220px;
+    width:600px;
+    background-color: white;
+    border:1px solid;
+    filter:drop-shadow(5px 5px 10px black);
+    position:absolute;
+    left:500px;
+    top:200px;
+    p{
+        padding-left: 50px;
+        /* font-family: "Josefin Sans" ; */
+        font-family:"Cinzel", serif;
+        font-size: 45px;
+    }
+    span{
+        font-family:"Cinzel", serif;
+        font-size: 20px;
+        padding-left: 30px;
+        position: absolute;
+        bottom:60px;
+
+    }
+}
+
+
+.port-gall1{
+    height:500px;
+    width:1200px;
+    position: absolute;
+    top:780px;
+    img{
+        width:380px;
+        height: 350px;
+        border-radius: 10px;
+
+    }
+
+    .port-img1{
+        p{
+            font-size: 20px;
+            font-family: "Cinzel", serif;
+            position:absolute;
+            left:55px;
+            top:350px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Josefin Sans";
+            position: absolute;
+            top:410px;
+            left:70px;
+            background-color:  hsla(42,31%,94%,1);
+            color: rgb(63, 62, 62);
+            width:  140px;
+            height:40px;
+            padding-left: 25px;
+            padding-top: 16px;
+
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
+    }
+
+    .port-img2{
+         p{
+            font-size: 20px;
+            font-family: "Cinzel", serif;
+            position:absolute;
+            left:450px;
+            top:350px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Josefin Sans";
+            position: absolute;
+            top:410px;
+            left:480px;
+            background-color:  hsla(42,31%,94%,1);
+            color: rgb(63, 62, 62);
+            width:  140px;
+            height:40px;
+            padding-left: 25px;
+            padding-top: 16px;
+
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
+
+    }
+
+    .port-img3{
+         p{
+            font-size: 20px;
+            font-family: "Cinzel", serif;
+            position:absolute;
+            left:870px;
+            top:350px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Josefin Sans";
+            position: absolute;
+            top:410px;
+            left:880px;
+            background-color:  hsla(42,31%,94%,1);
+            color: rgb(63, 62, 62);
+            width:  140px;
+            height:40px;
+            padding-left: 25px;
+            padding-top: 16px;
+
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
+
+    }
+}
+
+.port-gall2{
+    height:500px;
+    width:1200px;
+    position: absolute;
+    top:1280px;
+    left:250px;
+    img{
+        width:350px;
+        height: 350px;
+        border-radius: 10px;
+
+    }
+
+    .port-img4{
+        p{
+            font-size: 20px;
+            font-family: "Cinzel", serif;
+            position:absolute;
+            left:50px;
+            top:350px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Josefin Sans";
+            position: absolute;
+            top:410px;
+            left:70px;
+            background-color:  hsla(42,31%,94%,1);
+            color: rgb(63, 62, 62);
+            width:  140px;
+            height:40px;
+            padding-left: 25px;
+            padding-top: 16px;
+
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
+    }
+
+    .port-img5{
+         p{
+            font-size: 20px;
+            font-family: "Cinzel", serif;
+            position:absolute;
+            left:425px;
+            top:350px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Josefin Sans";
+            position: absolute;
+            top:410px;
+            left:450px;
+            background-color:  hsla(42,31%,94%,1);
+            color: rgb(63, 62, 62);
+            width:  140px;
+            height:40px;
+            padding-left: 25px;
+            padding-top: 16px;
+
+        }
+        a:hover{
+             background-color: rgb(133, 131, 154);
+    color:white;
+        }
+
+    }
+
+    
+
+    
+}
+
+.connected-container{
+    position: absolute;
+    top:1850px;
+    width: 1200px;
+    height:450px;
+     background-color:  hsla(42,31%,94%,1);
+    img{
+        position: absolute;
+        left:690px;
+        top:-60px;
+        height:550px;
+        width:420px;
+        
+    }
+
+    p{
+        font-size: 45px;
+        font-family: "Cinzel", serif;
+        position: absolute;
+        top:70px;
+        left:90px;
+    }
+    span{
+        width:510px;
+        font-size: 25px;
+        font-family: "Cinzel", serif;
+        position: absolute;
+        top:180px;
+        left:90px;
+    }
+    .btn-connect{
+        padding-left: 90px;
+    a{
+        font-size: 30px;
+        color: black;
+      
+       
+        
+    }
+    i{
+         margin-top: 260px;
+         padding: 8px;
+         
+         
+         
+    }
+}
+    button{
+         border:none;
+    height:60px;
+    width:180px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+    position: absolute;
+    left:100px;
+    top:320px;
+    }
+    button:hover{
+     background-color:rgb(167, 154, 144);
+    color:black;
+}
+}
+
+
+footer{
+    background-color:  hsla(42,31%,94%,1);
+    position:absolute;
+    top:2400px;
+    width:1200px;
+    height:250px;
+
+.footer-items{
+    display:inline;
+}
+ .footer-links{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+    position:relative;
+   top:80px;
+ }
+
+ .footer-links:hover{
+    text-decoration: underline;
+ }
+
+ .foot-main{
+    position: relative;
+    top:30px;
+    left:453px;
+    color:currentColor;
+    font-size: 15px;
+    font-family:"Cinzel", serif;
+
+ }
+
+ hr{
+    width:170px;
+    position: relative;
+    left:-65px;
+  top:20px;
+ }
+
+ .foot-sub{
+
+    position: relative;
+    top:10px;
+    left:453px;
+    color:currentColor;
+    font-size: 13px;
+    font-family:"Cinzel", serif;
+
+
+ }
+
+ .foot-btn{
+    position: relative;
+    left:700px;
+  top:-55px;
+    border:none;
+    height:60px;
+    width:200px;
+    font-size: 18px;
+    font-family:"Cinzel", serif;
+    background-color:  hsla(176,18%,67%,1);
+    color:white;
+ }
+
+ .btn-foot{
+    position: relative;
+    left:1000px;
+    top:-90px;
+    i{
+    font-size: 20px;
+    color:black;
+    }
+
+
+
+    a{
+        margin:13px;
+        position: relative;
+        right:30px;
+        
+       
+    }
+   
+ }
+
+ 
+ 
+
+ .copyright-footer{
+    width:445px;
+    position: relative;
+top:-25px;
+left:350px;
+font-size: 13px;
+font-family: "Cinzel", serif;
+color:grey;
+span{
+
+
+margin-left: 120px;
+}
+ }
+
+}
+
