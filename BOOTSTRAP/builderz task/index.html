@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        @media only screen and (min-width:720px) {
+            #mynav {
+                display: flex;
+                justify-content: flex-end;
+               
+            }
+
+            .home {
+                padding-left: 230px;
+               
+                
+               /* p{
+            background-color: black;
+            opacity: 0.6;
+            color:white;
+            border-radius: 10px;
+            height: 60px;
+            width:500px;
+            padding-top: 10px;
+            padding-left: 15px;
+            position: absolute;
+            top:450px;
+            left:300px;
+            font-size: 30px;
+        }*/
+            }
+        }
+
+        @media only screen and (max-width:720px) {
+            /*.home{
+            p{
+            background-color: black;
+            opacity: 0.6;
+            color:white;
+            border-radius: 10px;
+           
+            width:380px;
+            font-size: 10px;
+            padding-top: 10px;
+            padding-left: 15px;
+             position: absolute;
+            top:400px;
+            left:100px; 
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height:60px;
+            font-size: 18px;
+            
+        }
+        }*/
+        }
+
+        .navbar {
+            background-color: rgb(76, 83, 89);
+            position: sticky;
+            top:0;
+           
+        }
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 610px;
+            
+            background-color: #6c757d;
+           
+           
+
+        }
+        .btn-dropdown{
+            
+        .btn{
+            background-color:  rgb(76, 83, 89);
+            color:white;
+            border-radius: 30px;
+          
+        
+
+        }
+    }
+
+        .footer {
+            background-color:  rgb(76, 83, 89);
+          
+            button{
+                border:2px solid white;
+                border-radius:30px;
+                color: white;
+                
+            }
+            .icon{
+                font-size: 30px;
+               color: white;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md  navbar-dark ">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand ">
+                <img src="https://builderz-interior.web.app/icons8-smart-home-checked-50.png" alt="" height="35px"
+                    class="img-fluid-top pb-2"> <span class="fs-3 fw-bold ps-1">Builderz</span>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav pe-5">
+                    <li class="nav-item"><a href="#home" class="nav-link text-light fs-5">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-light fs-5">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-light fs-5">Services</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-light fs-5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fulid home" id="home" >
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 col-md-9">
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#mycar" data-bs-slide-to="0"></button>
+                        <button  data-bs-target="#mycar" data-bs-slide-to="1"></button>
+                        <button  data-bs-target="#mycar" data-bs-slide-to="2"></button>
+                        <button  data-bs-target="#mycar" data-bs-slide-to="3"></button>
+                        <button  data-bs-target="#mycar" data-bs-slide-to="4"></button>
+                    </div>
+                    <div class="carousel slide pb-5 mb-5" id="mycar" data-bs-ride="carousel" data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="image (1).png" alt="" class="d-block w-100  img-fluid img-thumbnail">
+                            <div class="carousel-caption bg-dark">
+                                <h6>A home so good,you'll love the way you live</h6>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="image (2).png" alt="" class="d-block w-100 img-thumbnail">
+                            <div class="carousel-caption bg-dark">
+                                <h6>Want to design an art room?</h6>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="image (3).png" alt="" class="d-block w-100 img-thumbnail">
+                            <div class="carousel-caption bg-dark">
+                                <h6>Smart and efficient home interiors with superior quality</h6>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="image (4).png" alt="" class="d-block w-100 img-thumbnail">
+                            <div class="carousel-caption bg-dark">
+                                <h6>How about having wide spacious and pleasent look:)</h6>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="image-5.png" alt="" class="d-block w-100 img-thumbnail">
+                            <div class="carousel-caption bg-dark">
+                                <h6>A great hall to enjoy with your family</h6>
+                            </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mycar">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#mycar">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <!-- <img src="https://builderz-interior.web.app/int-img1.jpg" alt=""
+                        class="img-fluid-top rounded-5 img-thumbnail ">
+                    <p class="text-white">A home so good,you'll love the way you live</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center" id="about">
+        <div class="row">
+            <div class="col-md-12 ">
+                <p class="fs-1 text-decoration-underline pt-5">What we do</p>
+            </div>
+        </div>
+        <div class="row  ps-5 pe-5">
+            <div class="col-md-12">
+                <p class="fs-6">We Are A Team Of Highly Dedicated And Experienced Interior Designers To Perfectly
+                    Interpret The Likings Of Our Clients And Customize The Interior Designing In Accordance To Their
+                    Needs And Budget.</p>
+            </div>
+        </div>
+        <div class="row ps-4">
+            <div class="col-md-4">
+                <img src="https://builderz-interior.web.app/coll-img1.jpg" alt=""
+                    class="img-fluid rounded-3 img-thumbnail">
+                <p>Home interior</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://builderz-interior.web.app/coll-img2.jpg" alt=""
+                    class="img-fluid rounded-3 img-thumbnail">
+                <p>Industrial interior</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://builderz-interior.web.app/coll-img3.png" alt=""
+                    class="img-fluid rounded-3 img-thumbnail">
+                <p>Traditional interior</p>
+            </div>
+        </div>
+        <hr>
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p class="fs-1 text-decoration-underline pt-3 ps-4">What makes us special</p>
+                </div>
+            </div>
+            <div class="row  ps-5 pe-3">
+                <div class="col-md-10 ps-5 pe-1">
+                    <p class="fs-6 ps-5">Our mission is to deliver high quality Interior Design that meets the wishes
+                        and dreams of our clients and put that design into practice to make amazing and warm place for
+                        everyday life.
+
+                    </p>
+                </div>
+            </div>
+            <div class="row  ps-5 pe-5">
+                <div class="col-md-11">
+                    <p class="fs-6 ps-5">We interior designers bring to life an artistic vision for work and living
+                        spaces, seeing out a project from conception to creation. Design plans should be cognizant of
+                        safety and functionality requirements and maintain a strict adherence to building codes and
+                        regulatory standards.</p>
+                </div>
+            </div>
+            <div class="row ps-4">
+                <div class="col-md-6">
+                    <img src="https://builderz-interior.web.app/whyus1.jpg" alt=""
+                        class="img-fluid rounded-3 img-thumbnail">
+                    <p>Modern interior</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://builderz-interior.web.app/whyus2.jpg" alt=""
+                        class="img-fluid rounded-3 img-thumbnail">
+                    <p>Green interior</p>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-md-12 ">
+                    <p class="fs-1 text-decoration-underline pt-3 ps-4">We can build any type of design for you</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container" id="services">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="fs-1 text-decoration-underline pt-5 ps-4">Service we offer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>We Offer Top-notch Interior Design Services within Your Space and Budget Constraints. Call. Award
+                        Winning Interior Designers In Hyderabad, Nifty Interior. Call Us For Quote Today! Professional
+                        Designers. 100% Customisable. No Hidden Charges. 20 Yrs Expertise. Transparent Pricing.</p>
+                </div>
+            </div>
+
+            <div class="row see">
+                <div class="col-md-4">
+                    <p class="fs-1 text-decoration-underline">Hall</p>
+                    <img src="https://builderz-interior.web.app/hall1.webp" alt=""
+                        class="img-fluid rounded-4 img-thumbnail">
+                        <div class="btn-dropdown pt-3">
+                        <button class="btn dropdown" data-bs-toggle="collapse" data-bs-target="#drop1"><i class="fa-solid fa-arrow-down"></i><br>See more</button>
+                        </div>
+                        <div class="collapse pt-3" id="drop1">
+                            <img src="https://builderz-interior.web.app/hall2.png" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/hall3.png" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/hall4.png" alt="" class="img-fluid img-thumbnail rounded-4">
+
+                        </div>
+                   
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-1 text-decoration-underline">Kitchen</p>
+                    <img src="https://builderz-interior.web.app/kitchen1.jpg" alt=""
+                        class="img-fluid rounded-4 img-thumbnail">
+                        <div class="btn-dropdown pt-3">
+                        <button class="btn dropdown" data-bs-toggle="collapse" data-bs-target="#drop2"><i class="fa-solid fa-arrow-down"></i><br>See more</button>
+                        </div>
+                        <div class="collapse pt-3" id="drop2">
+                            <img src="https://builderz-interior.web.app/kitchen2.png" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/kitchen3.jpg" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/kitchen4.jpg" alt="" class="img-fluid img-thumbnail rounded-4">
+
+                        </div>
+                        
+
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-1 text-decoration-underline">Bedroom</p>
+                    <img src="https://builderz-interior.web.app/bedroom1.png" alt=""
+                        class="img-fluid rounded-4 img-thumbnail">
+                        <div class="btn-dropdown pt-3">
+                        <button class="btn dropdown" data-bs-toggle="collapse" data-bs-target="#drop3"><i class="fa-solid fa-arrow-down"></i><br>See more</button>
+                        </div>
+                        <div class="collapse pt-3" id="drop3">
+                            <img src="https://builderz-interior.web.app/bedroom2.png" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/bedroom3.png" alt="" class="img-fluid img-thumbnail rounded-4"><br><br>
+                            <img src="https://builderz-interior.web.app/bedroom4.jpg" alt="" class="img-fluid img-thumbnail rounded-4">
+
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+        </div>
+<br>
+
+        <div class="container-fluid  footer text-light" id="contact">
+         
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p class="fs-1 fw-bold pt-4 text-decoration-underline text-center">Want to contact us?</p>
+                </div>
+            </div>
+            <div class="container pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="text-center">You can contact us directly by :</h4>
+                    <p class="text-center">phone: +916302248025 <br>
+                        mail: cssai07784@gamil.com
+                    </p>
+                    
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-center">Contact us by filling out the form</h4>
+                    
+                    <button class="btn ms-4 dropdown-toggle"  data-bs-toogle="collapse" data-bs-target="#forms">Click on me for filling out a form </button>
+                       <div class="row collapse" id="forms">
+                           <div class="col-md-12">
+                         <form action="" >
+                        <div class="form-group">
+                            <label for="" class="form-group">Username</label>
+                            <input type="text" class="form-control" placeholder="enter your name">
+                         
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-group">Phone number</label>
+                            <input type="text" class="form-control" placeholder="enter your Phone no">
+                         
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-group">Email</label>
+                            <input type="email" class="form-control" placeholder="enter your email">
+                         
+                        </div>
+                        </form> 
+                        </div> 
+                        </div>
+                          
+                   
+                </div>
+                
+                <div class="col-md-4">
+                    <h4 class="text-center">Address:</h4>
+                    <p class="text-center">H:no : 4-11/1 <br> kothagudam street, Near GSM mall <br>location: <a href="https://maps.app.goo.gl/xMq6Zvv6e7Ps95K96" class="text-light">https://maps.app.goo.gl/xMq6Zvv6e7Ps95K96</a> </p>
+                   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center pt-5">you can also contact us by:</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center icon">
+                    <a href="" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""  class="text-light"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""  class="text-light"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center pt-3">©BuilderZ, All Rights Reserved</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+</body>
+
+</html>

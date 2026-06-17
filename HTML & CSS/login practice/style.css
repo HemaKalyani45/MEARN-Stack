@@ -1,0 +1,33 @@
+#d1{
+    background-color:#541A1A;
+    color:#F1E2D1;
+    text-align: center;
+}
+
+table{
+     background-color: white;
+     padding-bottom: 5%;
+     background-image: url('');
+     
+     
+}
+input{
+    width: 200px;
+} 
+img{
+    padding-left: 40%;
+}
+
+#b1{
+    background-color: ;
+}
+body{
+    text-align: center;
+    padding: 8%;
+    
+    /* background-color:#8ACBD0;
+     */
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

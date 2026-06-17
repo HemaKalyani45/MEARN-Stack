@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+   
+    <section class="navbar">
+
+        <img src="image 1.png" alt="Myhomegroup logo" class="nav-img">
+        <nav>
+            <ul class="navbar-nav">
+                <li class="nav-items"><a href="#home" class="nav-link">Home </a></li>
+                <li class="nav-items"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-items"><a href="#project" class="nav-link">Projects</a></li>
+                <li class="nav-items"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-items"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    
+
+    <section class="container-home" id="home">
+        
+        <img src="image 2.png" alt="" class="img-home">
+    </section>
+
+    <section class="container-about" id="about">
+    <h2 class="myh2">About us</h2>
+    <section class="img">
+        <img src="image 3.png" alt="" class="img-about">
+
+        <p class="p-about">Dr. Rameswar Rao Jupally is the founder and chairman of My Home Group, a multi-billion dollar conglomerate
+            based in Hyderabad. He is a first-generation entrepreneur who transitioned from a career in homeopathy to
+            becoming one of South India's most prominent real estate and industrial leaders</p>
+        </section>
+            <h2 class="aw-h2" >Awards</h2>
+
+        
+        <section class="about-award">
+
+            <div class="s1">
+                <span><img src="../task2/Product quality-pana.svg" alt="" class="img-award"></span>
+                <h3 class="myh3">
+                    Excellence Award (2024)</h3>
+                <p class="p">For outstanding growth in the retail sector.</p>
+                <button>More Info!</button>
+            </div>
+            <div class="s2">
+                <span><img src="../task2/Product quality-bro.svg " alt="" class="img-award"></span>
+                <h3 class="myh3">Customer Award(2023)</h3>
+
+                <p class="p">For excellent customer service and satisfaction.</p>
+
+                <button>More Info!</button>
+            </div>
+            <div class="s3">
+                <span><img src="../task2/Exams-rafiki.svg" alt="award" class="img-award"></span>
+                <h3 class="myh3">Innovation Award (2024)</h3>
+                <p class="p">For adopting innovative technologies in online retail.</p>
+                <button>More Info!</button>
+            </div>
+
+        </section>
+
+
+    </section>
+    
+
+    
+    <section class="container-project" id="project">
+      
+        <h2 class="proj" style="margin-top: -100px; margin-left:90px;" >Projects</h2>
+      <br><br><br><br>
+        <div class="pro1" style="margin-top: 50px;">
+            <img src="image 4.png" alt="" class="img-pro1"> <span>myhome jewel</span>
+            <p class="p-pro1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five</p>
+        </div>
+        <div class="pro2">
+            <img src="image 5.png" alt="" class="img-pro2"> <span class="myspan"> myhome bhooja</span>
+            <p class="p-pro2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five</p>
+        </div>
+
+    </section>
+
+    
+
+    <section class="container-gallery" id="gallery">
+        <h2 class="h2-gallery" style="margin-top: -50px; margin-left:90px;">Gallery</h2>
+        
+
+        <img src="https://wallpapercave.com/wp/wp1842342.jpg" alt="img1"  class="img-gallery">
+        <img src="https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?cs=srgb&dl=pexels-asphotograpy-224924.jpg&fm=jpg" alt="img2" class="img-gallery">
+        <img src="https://freelineeng.ae/wp-content/uploads/2022/06/asian-two-business-man-construction-engineers-supervising-progress-construction-project-construction-site.jpg" alt="img3" class="img-gallery">
+        <div class="img-gall">
+        <img src="https://www.homebazaar.com/knowledge/wp-content/uploads/2022/09/House-Elevation-Low-Cost-Single-Floor-House-Design3.jpg" alt="img4" class="img-gallery">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.aIlcH2PeZcddnOzB8jcJlgHaEU?cb=thfvnextfalcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="img5" class="img-gallery">
+        </div>
+    </section>
+
+    
+    <section class="container-contact" id="contact">
+        <h2 class="h2-cont" style="margin-top: -100px; margin-left:90px;">Contact Us</h2><br>
+        <div class="cont-details">
+            <form>
+                <table >
+                    <tr>
+                        <td><label for="name">Name : <font color="red">*</font></label></td>
+                        <td><input type="text" id="name" name="name" required pattern="[a-zA-Z]+"
+                                title="Please enter a valid name containing only letters."></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email : </label>
+                            <font color="red">*</font>
+                        </td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">Mobile Number : </label></td>
+                        <td><input type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                                title="Please enter a valid 10-digit phone number."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Feedback : </label></td>
+                        <td><textarea id="message" rows="4" cols="20"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="contact">Contact Us : </label></td>
+                        <td>+91 2345676898 <br> abcd2@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="location">Location : </label></td>
+                        <td>Miyapur,500049</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                        <td><input type="reset" value="Reset"></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+        <div class="cont-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30440.6025647431!2d78.34415495395665!3d17.50391756723694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f38530c1d5%3A0xc12babe8305eacb3!2sDMart%20Miyapur!5e0!3m2!1sen!2sin!4v1779878405192!5m2!1sen!2sin" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    
+</body>
+
+</html>
