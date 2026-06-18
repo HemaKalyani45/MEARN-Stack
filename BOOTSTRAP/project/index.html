@@ -134,21 +134,40 @@ background-position: center;
         }
  @media only screen and (max-width:720px) {
     .navbar{
-        height: 100px;
+        height: 80px;
+        position: sticky;
+        top:0px;
         
 
     }
     
+         
+
+.navbar-brand{
+    img{
+        height:120px;
+        margin-top: -22px;
+    }
+}
+    .navbar-toggler{
+       margin-top: -40px;
+    }
     #mynav{
         width: 100%;
-        background-color: rgba(0, 0, 0, .08);
+        background-color: rgba(0, 0, 0, .3);
         font-size: 25px;
-
+        
     }
+    
+   
     .btn{
         margin-left: 0px;
+        
     }
-
+   
+.video-class{
+    margin-right: 30px;
+}
       
     
  }
@@ -385,11 +404,11 @@ background-position: center;
 
     <div class="container-fluid pb-1" id="about">
         <div class="row">
-            <div class="col-md-5 ms-5 ps-5 pt-5">
-                <video src="video.mp4" autoplay muted loop
+            <div class="col-md-4 ms-5 ps-5 pt-5">
+                <video src="video.mp4" autoplay muted loop  class=" video-class"
                     style="height:500px; width:300px;border:none;border-radius:30px;filter:drop-shadow(5px 10px 19px black);overflow:hidden;object-fit:cover;"></video>
             </div>
-            <div class="col-md-6 ps-0">
+            <div class="col-md-7 ps-0">
                 <div class="about-us">
                     <h3 class="pt-5 mt-5 text-center" style="font-family: 'Playfair Display', serif;">About Us</h3>
                     <p class="fs-5 pt-3 ps-3" style="font-family: Cinzel, serif; line-height:1.8;">BaathKhaana is a vibrant
