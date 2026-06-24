@@ -1,9 +1,4 @@
-var a=6;
-var b=2;
-var c=7;
-var d=5;
-var res=a<b?(a<c?(a<d?a:d):c):(b<c?(b<d?b:d):c);
-console.log(res);
+
 
 
 var uname="hema";
@@ -70,34 +65,10 @@ console.log(result);
 
 
 
-var num=123;
-var sum=0;
-
-while(num!=0){
-    var res=num%10;
-    sum=sum+res;
-    num/=10
-}
-
-console.log(sum);
 
 
 
-for(let nu=2;nu<=100;nu++){
-     let isPrime=true;
-    
-       
-        for(let i=2;i<nu;i++){
-        if(nu % i == 0){
-            isPrime=false;
-            break;
-        }
-    }
 
-    if(isPrime){
-    console.log(nu);
-}
-}
 
 
 
