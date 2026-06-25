@@ -19,12 +19,12 @@ for(let k=1;k<=b;k++){
 
 var row=5;
 
-for(let i=1;i<=row;i++){
+for(let i=row;i>0;i--){
     let sp=" ";
     for(let j=1;j<=row-i;j++){
         sp +=" ";
     }
-    for(let e=i;e<=row;e++){
+    for(let e=1;e<=i;e++){
         sp += "*";
     }
 
