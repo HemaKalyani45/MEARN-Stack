@@ -1,4 +1,6 @@
-var num=1321;
+const prompt = require("prompt-sync")();
+
+var num=Number(prompt("Enter a number:"));
 
 var temp=num;
 
